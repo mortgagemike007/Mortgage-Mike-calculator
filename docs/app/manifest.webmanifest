@@ -1,6 +1,7 @@
 {
   "name": "Mortgage Mike Home Loan Calculator",
   "short_name": "Mortgage Mike",
+  "id": "./",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
@@ -9,10 +10,16 @@
   "description": "Mortgage payment estimates and secure mortgage application",
   "icons": [
     {
+      "src": "./icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
       "src": "./icon.svg",
       "sizes": "any",
       "type": "image/svg+xml",
-      "purpose": "any maskable"
+      "purpose": "any"
     }
   ]
 }
